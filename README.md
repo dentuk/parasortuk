@@ -6,9 +6,9 @@ A parallel quicksort implementation using Erlang
 Modules
 -------
 
-* utils: mainly list manipulation functions, used by other modules ;
-* quicksort: parallel sorting functions ;
-* comparator: tools for benchmarking.
+* `utils`: mainly list manipulation functions, used by other modules ;
+* `quicksort`: parallel sorting functions ;
+* `comparator`: tools for benchmarking.
 
 Howto: Sorting a List
 ---------------------
@@ -54,3 +54,12 @@ Eshell V5.10.4  (abort with ^G)
  0.6669572934854013,0.6971407843005519,0.7230402056221108,
  0.915656206971831,0.94581636451987]
 ```
+
+Howto: Enabling Debug Mode
+--------------------------
+
+In order to enable debug mode, define the `debug` macro 
+when compiling the `quicksort` module, for instance:
+`c(quicksort, {d, debug}).`.
+
+
