@@ -24,7 +24,8 @@ finally returned by a given process, the sublists' sizes homogeneity
 allows to know if the sort was fairly distributed. You can then call
 `lists:flatten/1` in order to get a flattened version of the list.
 
-```dentuk@tank ~/git/parasortuk $ erl
+```erlang
+dentuk@tank ~/git/parasortuk $ erl
 Eshell V5.10.4  (abort with ^G)
 1> c(utils).
 {ok,utils}
@@ -51,4 +52,5 @@ Eshell V5.10.4  (abort with ^G)
  0.4435846174457203,0.47712105608919275,0.5014907142064751,
  0.5582558083752902,0.5965100813402789,0.597447524783298,
  0.6669572934854013,0.6971407843005519,0.7230402056221108,
- 0.915656206971831,0.94581636451987]```
+ 0.915656206971831,0.94581636451987]
+```
